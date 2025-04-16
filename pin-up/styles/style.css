@@ -1,0 +1,301 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #FFF7E6; /* Кремовый фон */
+    color: #4a4a4a;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+    color: #FF6F61; /* Коралловый для заголовков */
+}
+
+.bg-gradient {
+    background: linear-gradient(135deg, #FFB88C 0%, #FF6F61 100%); /* Персиковый с коралловым */
+    color: #fff;
+    padding: 60px 0;
+    border-radius: 0 0 50px 50px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.offer-section {
+    background: linear-gradient(to right, #FFF0E6, #DFF7F6); /* Кремовый и мягкий бирюзовый */
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    margin: 20px;
+}
+
+.animated-header {
+    font-size: 2.5rem;
+    animation: headerAnimation 2s ease-in-out forwards;
+    opacity: 0;
+}
+.bg-primary{
+    background-color: #ff6f61 !important;
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 1.5s ease forwards;
+}
+
+.service {
+    background: linear-gradient(to bottom, #5FD3C1, #DFF7F6); /* Бирюзовый градиент */
+    border-radius: 20px;
+    padding: 30px;
+    margin: 10px;
+    color: #FF6F61; /* Коралловый для текста */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.service:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    background: linear-gradient(to bottom, #DFF7F6, #5FD3C1); /* Перевернутый бирюзовый градиент */
+}
+
+.icon-circle {
+    background-color: #FFF0E6; /* Кремовый фон иконки */
+    border-radius: 50%;
+    padding: 15px;
+    display: inline-block;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.icon {
+    font-size: 2.5rem;
+    color: #FF6F61; /* Коралловый для иконок */
+}
+
+ul.list-unstyled li {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    color: #4a4a4a;
+}
+
+.carousel-item {
+    padding: 20px;
+    font-size: 1.2em;
+    color: #555;
+    background-color: rgba(255, 184, 140, 0.9); /* Легкий персиковый */
+    border-radius: 15px;
+}
+
+/* Animations */
+@keyframes headerAnimation {
+    0% { opacity: 0; transform: translateY(-20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+.advantages-section {
+    background-color: #FFF7E6; /* Легкий кремовый фон */
+}
+
+.advantage-item {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.advantage-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+}
+
+.advantage-item i {
+    color: #FF6F61; /* Коралловый цвет для иконок */
+}
+
+.advantage-item h4 {
+    font-weight: 700;
+    color: #333;
+}
+
+.advantage-item p {
+    color: #666;
+}
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+}
+.card .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.accordion-button {
+    background-color: #ffefef;
+    color: #ff6f61;
+    font-weight: 600;
+    border: none;
+    padding: 15px;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #ffe0e0;
+    color: #ff3b3b;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+}
+
+.accordion-item {
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-body {
+    background-color: #fff5f5;
+    color: #333;
+    padding: 20px;
+    border-top: 1px solid #ffefef;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.offer-section {
+    background-color: #ffefef;
+    color: #333;
+    border-radius: 15px;
+    padding: 40px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.offer-section img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.offer-section h2 {
+    color: #ff6f61;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.offer-section p {
+    color: #555;
+    font-size: 1.1rem;
+}
+
+#discountForm .form-label {
+    color: #ff6f61;
+    font-weight: 600;
+}
+
+#discountForm .btn-primary {
+    background-color: #ff6f61;
+    border: none;
+}
+
+#discountForm .btn-primary:hover {
+    background-color: #ff3b3b;
+}
+footer {
+    background-color: #222;
+    color: #ddd;
+}
+
+footer h5 {
+    color: #ff6f61;
+    margin-bottom: 15px;
+}
+
+footer a.text-light {
+    text-decoration: none;
+    color: #ccc;
+    transition: color 0.3s ease;
+}
+
+footer a.text-light:hover {
+    color: #ff6f61;
+}
+
+#newsletterForm input {
+    background-color: #333;
+    border: none;
+    color: #fff;
+}
+
+#newsletterForm button {
+    background-color: #ff6f61;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+#newsletterForm button:hover {
+    background-color: #ff3b3b;
+}
+
+footer .fab {
+    color: #ccc;
+    transition: color 0.3s ease;
+}
+
+footer .fab:hover {
+    color: #ff6f61;
+}
+/* Кастомные стили для навбара */
+.navbar-custom {
+    font-size: 1.2rem; /* Увеличиваем размер шрифта */
+}
+
+.navbar-custom .navbar-brand {
+    font-size: 1.5rem; /* Логотип и название больше, чем ссылки */
+    font-weight: 700;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    padding: 0 1rem; /* Пространство между ссылками */
+}
+
+.navbar-custom .btn-primary {
+    font-size: 1.1rem; /* Крупный шрифт для кнопки */
+    padding: 0.5rem 1.25rem;
+}
+/* Стиль для фонового изображения */
+.header-bg {
+    position: relative;
+    background-image: url(../images/header-background.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.7);
+    padding: 80px 20px;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.img-rev{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+/* Полупрозрачный overlay */
+.header-bg-overlay::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Черный цвет с прозрачностью 50% */
+    z-index: 1;
+}
+
+/* Стили для текста и кнопок, чтобы они были поверх overlay */
+.header-bg h1, .header-bg p, .header-bg a {
+    position: relative;
+    z-index: 2;
+}

@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa del Gusto | Dulces Artesanales a Pedido</title>
+
+    <meta name="description" content="Casa del Gusto es un paraíso para los amantes de los postres, ofreciendo dulces frescos y artesanales hechos a pedido en el corazón de Chile.">
+    <meta name="keywords" content="postres, dulces, Chile, pastelería, chocolate, diseño personalizado, Casa del Gusto, repostería artesanal">
+    <meta name="author" content="Casa del Gusto">
+    <meta property="og:title" content="Casa del Gusto | Dulces Artesanales a Pedido">
+    <meta property="og:description" content="Descubre los sabores únicos de Casa del Gusto: repostería artesanal hecha con ingredientes frescos en Chile.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://casadel-gusto.com">
+    <meta property="og:site_name" content="Casa del Gusto">
+    <meta property="og:locale" content="es_CL">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Casa del Gusto | Dulces Artesanales a Pedido">
+    <meta name="twitter:description" content="Repostería de autor en Chile. Encarga tus dulces personalizados en Casa del Gusto.">
+    <meta name="twitter:image" content="https://casadel-gusto.com/images/og-image.jpg"> 
+    <meta name="twitter:site" content="@casadelgusto"> 
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-custom">
+    <div class="container d-flex justify-content-between align-items-center">
+        <a class="navbar-brand d-flex align-items-center" href="/">
+            <img src="images/logo.png" alt="Casa del Gusto Logo" width="40" height="40" class="d-inline-block align-text-top me-2">
+            <span>Casa del Gusto</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about/">Sobre Nosotros</a>
+                </li>
+            </ul>
+            <a href="contact/contact.html" class="btn btn-primary btn-lg">Contacto</a>
+        </div>
+    </div>
+</nav>
+
+<header class="text-center py-5 header-bg header-bg-overlay">
+    <h1 class="animated-header">Momentos Dulces con Casa del Gusto</h1>
+    <p class="lead">Postres frescos, deliciosos y con diseños únicos te están esperando.</p>
+    <a href="#popularProductsCarousel" class="btn btn-primary btn-lg mt-3">Descubre Nuestros Productos</a>
+</header>
+
+<section class="advantages-section text-center py-5 fade-in">
+    <h2 class="mb-4">Nuestras Ventajas</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 mb-4">
+                <div class="advantage-item p-3 h-100">
+                    <i class="fas fa-star fa-2x mb-2"></i>
+                    <h4 class="mt-2">Maestros Reposteros</h4>
+                    <p>Contamos con chefs expertos dedicados a la repostería artesanal.</p>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="advantage-item p-3 h-100">
+                    <i class="fas fa-clock fa-2x mb-2"></i>
+                    <h4 class="mt-2">3 Años en el Mercado</h4>
+                    <p>Con experiencia comprobada, llevamos dulzura a tu mesa desde hace años.</p>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="advantage-item p-3 h-100">
+                    <i class="fas fa-gift fa-2x mb-2"></i>
+                    <h4 class="mt-2">Variedad de Postres</h4>
+                    <p>Ofrecemos opciones para todos los gustos y ocasiones.</p>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="advantage-item p-3 h-100">
+                    <i class="fas fa-seedling fa-2x mb-2"></i>
+                    <h4 class="mt-2">Ingredientes de Calidad</h4>
+                    <p>Seleccionamos los mejores ingredientes para lograr un sabor incomparable.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+ <section class="container my-5 fade-in">
+    <h2 class="text-center mb-4">Productos Populares</h2>
+    <div id="popularProductsCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+            <!-- Segundo slide con 3 productos -->
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-md-4 d-flex flex-column align-items-center">
+                        <img src="images/cake1.jpg" class="d-block w-100" alt="Pastel de Chocolate">
+                        <h3>Pastel de Chocolate</h3>
+                        <p>Pastel húmedo y cubierto con abundante chocolate.</p>
+                        <p><strong>Precio: $100 CLP</strong></p>
+                        <button class="btn btn-primary order-button" data-product="Pastel de Chocolate">Hacer Pedido</button>
+                    </div>
+                    <div class="col-md-4 d-flex flex-column align-items-center">
+                        <img src="images/cupcake1.jpg" class="d-block w-100" alt="Cupcake de Vainilla">
+                        <h3>Cupcake de Vainilla</h3>
+                        <p>Esponjosos cupcakes con suave sabor a vainilla.</p>
+                        <p><strong>Precio: $25 CLP</strong></p>
+                        <button class="btn btn-primary order-button" data-product="Cupcake de Vainilla">Hacer Pedido</button>
+                    </div>
+                    <div class="col-md-4 d-flex flex-column align-items-center">
+                        <img src="images/sweet1.jpg" class="d-block w-100" alt="Baklava">
+                        <h3>Baklava</h3>
+                        <p>Clásico postre de capas crujientes y almíbar.</p>
+                        <p><strong>Precio: $60 CLP</strong></p>
+                        <button class="btn btn-primary order-button" data-product="Baklava">Hacer Pedido</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tercer slide con 3 productos -->
+            <div class="carousel-item active">
+                <div class="row">
+                    <div class="col-md-4 d-flex flex-column align-items-center">
+                        <img src="images/lokum1.jpg" class="d-block w-100" alt="Delicia de Rosa">
+                        <h3>Delicia de Rosa</h3>
+                        <p>Delicado sabor floral en cada bocado.</p>
+                        <p><strong>Precio: $35 CLP</strong></p>
+                        <button class="btn btn-primary order-button" data-product="Delicia de Rosa">Hacer Pedido</button>
+                    </div>
+                    <div class="col-md-4 d-flex flex-column align-items-center">
+                        <img src="images/lokum3.jpg" class="d-block w-100" alt="Delicia con Pistacho">
+                        <h3>Delicia con Pistacho</h3>
+                        <p>Relleno generoso de pistachos crujientes.</p>
+                        <p><strong>Precio: $30 CLP</strong></p>
+                        <button class="btn btn-primary order-button" data-product="Delicia con Pistacho">Hacer Pedido</button>
+                    </div>
+                    <div class="col-md-4 d-flex flex-column align-items-center">
+                        <img src="images/sweet2.jpg" class="d-block w-100" alt="Kadaif">
+                        <h3>Kadaif</h3>
+                        <p>Postre tradicional de hilos de masa crujiente y dulce almíbar.</p>
+                        <p><strong>Precio: $55 CLP</strong></p>
+                        <button class="btn btn-primary order-button" data-product="Kadaif">Hacer Pedido</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controles del carrusel -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#popularProductsCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#popularProductsCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+    </div>
+</section>
+<!-- Servicios -->
+<section class="container my-5 fade-in">
+    <h2 class="text-center mb-4">Nuestros Servicios</h2>
+    <div class="row text-center d-flex justify-content-center">
+        <div class="col-lg-3 col-md-6 col-12 mb-4 service">
+            <div class="icon-circle"><i class="fas fa-candy-cane icon"></i></div>
+            <h3>Caramelos Artesanales</h3>
+            <p>Diversos dulces coloridos para alegrar tu día.</p>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12 mb-4 service">
+            <div class="icon-circle"><i class="fas fa-cloud icon"></i></div>
+            <h3>Delicias Tradicionales</h3>
+            <p>Inspiradas en sabores clásicos, con un toque único.</p>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12 mb-4 service">
+            <div class="icon-circle"><i class="fas fa-cookie-bite icon"></i></div>
+            <h3>Tortas Caseras</h3>
+            <p>Perfectas para celebrar momentos especiales.</p>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12 mb-4 service">
+            <div class="icon-circle"><i class="fas fa-birthday-cake icon"></i></div>
+            <h3>Pasteles Personalizados</h3>
+            <p>Diseños únicos para sorprender a quienes más quieres.</p>
+        </div>
+    </div>
+</section>
+
+      <div class="modal fade" id="orderModal" tabindex="-1" aria-labelledby="orderModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="orderModalLabel">Realizar Pedido</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body">
+                <form id="orderForm">
+                    <div class="mb-3">
+                        <label for="productName" class="form-label">Nombre del Producto</label>
+                        <input type="text" class="form-control" id="productName" readonly>
+                    </div>
+                    <div class="mb-3">
+                        <label for="customerName" class="form-label">Tu Nombre</label>
+                        <input type="text" class="form-control" id="customerName" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="customerPhone" class="form-label">Teléfono de Contacto</label>
+                        <input type="tel" class="form-control" id="customerPhone" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="customerAddress" class="form-label">Dirección de Entrega</label>
+                        <textarea class="form-control" id="customerAddress" rows="3" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar Pedido</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="container my-5 fade-in">
+    <h2 class="text-center mb-4">Opiniones de Clientes</h2>
+    <div id="testimonialsCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <div class="row text-center">
+                    <div class="col-md-6">
+                        <img src="images/user1.jpg" alt="Cliente 1" class="rounded-circle mb-3" width="80">
+                        <h5>Camila Rojas</h5>
+                        <p>"¡Descubrir un sabor así en Santiago fue increíble! Los chocolates de Casa del Gusto son verdaderas obras de arte. Se nota la calidad en cada bocado. Ideal para ocasiones especiales."</p>
+                        <div class="text-warning">★★★★★</div>
+                    </div>
+                    <div class="col-md-6 d-none d-md-block">
+                        <img src="images/user2.jpg" alt="Cliente 2" class="rounded-circle mb-3" width="80">
+                        <h5>Martín Valenzuela</h5>
+                        <p>"Las delicias que pedí estaban simplemente espectaculares. Me encantó el sabor fresco y auténtico. Además, todo el proceso de compra fue súper rápido y sencillo."</p>
+                        <div class="text-warning">★★★★★</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="row text-center">
+                    <div class="col-md-6">
+                        <img src="images/user3.jpg" alt="Cliente 3" class="rounded-circle mb-3" width="80">
+                        <h5>Sofía Morales</h5>
+                        <p>"Encargué una torta personalizada para mi cumpleaños y fue perfecta. Hermosa presentación y un sabor espectacular. A todos mis invitados les encantó. ¡Muy recomendable!"</p>
+                        <div class="text-warning">★★★★★</div>
+                    </div>
+                    <div class="col-md-6 d-none d-md-block">
+                        <img src="images/user4.jpg" alt="Cliente 4" class="rounded-circle mb-3" width="80">
+                        <h5>Joaquín Herrera</h5>
+                        <p>"Cuando tengo antojo de dulce ya sé dónde ir. Los caramelos de Casa del Gusto son una explosión de sabor y color. Un lugar ideal para los fanáticos de los postres."</p>
+                        <div class="text-warning">★★★★★</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="row text-center">
+                    <div class="col-md-6">
+                        <img src="images/user5.jpg" alt="Cliente 5" class="rounded-circle mb-3" width="80">
+                        <h5>Valentina López</h5>
+                        <p>"El pastel de chocolate que pedí estaba increíble. El sabor intenso del chocolate estaba perfectamente logrado. La entrega fue puntual y sin problemas. ¡Muy satisfecha!"</p>
+                        <div class="text-warning">★★★★★</div>
+                    </div>
+                    <div class="col-md-6 d-none d-md-block">
+                        <img src="images/user6.jpg" alt="Cliente 6" class="rounded-circle mb-3" width="80">
+                        <h5>Felipe Navarro</h5>
+                        <p>"La torta de frutas que recibí estaba tan fresca y deliciosa que me sorprendió. Se nota que usan ingredientes de alta calidad. Sin duda, lo recomiendo."</p>
+                        <div class="text-warning">★★★★★</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="row text-center">
+                    <div class="col-md-6">
+                        <img src="images/user8.jpg" alt="Cliente 7" class="rounded-circle mb-3" width="80">
+                        <h5>Daniela Contreras</h5>
+                        <p>"Pedí delicias y me encantó la variedad. Rosa, pistacho, nuez... cada sabor fue una grata sorpresa. Gracias a Casa del Gusto por esta experiencia tan sabrosa."</p>
+                        <div class="text-warning">★★★★★</div>
+                    </div>
+                    <div class="col-md-6 d-none d-md-block">
+                        <img src="images/user7.jpg" alt="Cliente 8" class="rounded-circle mb-3" width="80">
+                        <h5>Ignacio Reyes</h5>
+                        <p>"Encargué un pastel personalizado y superó todas mis expectativas. No solo se veía increíble, también estaba delicioso. Perfecto para celebraciones o un gusto personal."</p>
+                        <div class="text-warning">★★★★★</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Botones de control -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialsCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonialsCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+    </div>
+</section>
+
+
+        <section class="container my-5">
+    <h2 class="text-center mb-4">Galería</h2>
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <a href="images/gallery1.jpg" data-bs-toggle="modal" data-bs-target="#galleryModal">
+                <img src="images/gallery1-thumb.jpg" class="img-fluid rounded" alt="Imagen de la galería 1">
+            </a>
+        </div>
+        <div class="col-md-4 mb-4">
+            <a href="images/gallery2.jpg" data-bs-toggle="modal" data-bs-target="#galleryModal">
+                <img src="images/gallery2-thumb.jpg" class="img-fluid rounded" alt="Imagen de la galería 2">
+            </a>
+        </div>
+        <div class="col-md-4 mb-4">
+            <a href="images/gallery3.jpg" data-bs-toggle="modal" data-bs-target="#galleryModal">
+                <img src="images/gallery3-thumb.jpg" class="img-fluid rounded" alt="Imagen de la galería 3">
+            </a>
+        </div>
+        <div class="col-md-4 mb-4">
+            <a href="images/gallery4.jpg" data-bs-toggle="modal" data-bs-target="#galleryModal">
+                <img src="images/gallery4-thumb.jpg" class="img-fluid rounded" alt="Imagen de la galería 4">
+            </a>
+        </div>
+        <div class="col-md-4 mb-4">
+            <a href="images/gallery5.jpg" data-bs-toggle="modal" data-bs-target="#galleryModal">
+                <img src="images/gallery5-thumb.jpg" class="img-fluid rounded" alt="Imagen de la galería 5">
+            </a>
+        </div>
+        <div class="col-md-4 mb-4">
+            <a href="images/gallery6.jpg" data-bs-toggle="modal" data-bs-target="#galleryModal">
+                <img src="images/gallery6-thumb.jpg" class="img-fluid rounded" alt="Imagen de la galería 6">
+            </a>
+        </div>
+    </div>
+</section>
+
+
+        <div id="faq"></div>
+<section class="container my-5 fade-in">
+    <h2 class="text-center mb-4">Preguntas Frecuentes</h2>
+    <div class="accordion" id="faqAccordion">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="faqOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true">
+                    ¿Cómo puedo hacer un pedido en Casa del Gusto?
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="faqOne" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Puedes elegir los productos que te gusten desde nuestra web y completar el formulario de pedido fácilmente. Solo necesitas ingresar tus datos de contacto y la dirección de entrega.
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="faqTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                    ¿Cuánto tarda en llegar mi pedido?
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="faqTwo" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Generalmente, los pedidos se preparan y entregan entre 1 y 3 días hábiles. El tiempo puede variar según el tipo de producto solicitado.
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="faqThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                    ¿Hacen tortas personalizadas?
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="faqThree" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Sí, en Casa del Gusto creamos tortas personalizadas según tus preferencias. Podemos adaptar temas, colores y decoraciones para que tu celebración sea inolvidable.
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="faqFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour">
+                    ¿Utilizan aditivos o conservantes en sus productos?
+                </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="faqFour" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    No, todos nuestros productos están elaborados con ingredientes frescos y naturales. No utilizamos aditivos ni conservantes para garantizar un sabor auténtico y saludable.
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="faqFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive">
+                    ¿Qué tipos de delicias ofrecen?
+                </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="faqFive" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Ofrecemos una gran variedad de delicias como rosa, pistacho, nuez y frutales. Buscamos preservar el espíritu de la repostería tradicional con sabores únicos.
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="faqSix">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix">
+                    ¿Necesito reservar con anticipación?
+                </button>
+            </h2>
+            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="faqSix" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Para pedidos diarios no es necesario reservar, pero para tortas personalizadas o eventos grandes te recomendamos hacerlo con anticipación para asegurar disponibilidad.
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="faqSeven">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven">
+                    ¿Puedo modificar mi pedido después de realizarlo?
+                </button>
+            </h2>
+            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="faqSeven" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Puedes contactarnos el mismo día para solicitar cambios. Si el producto ya está en preparación, puede que no sea posible modificarlo.
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="faqEight">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight">
+                    ¿Realizan entregas fuera de la zona de cobertura?
+                </button>
+            </h2>
+            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="faqEight" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Actualmente entregamos en zonas específicas. Si estás fuera del área, contáctanos y evaluaremos cómo ayudarte con tu pedido.
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="faqNine">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine">
+                    ¿Qué métodos de pago aceptan?
+                </button>
+            </h2>
+            <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="faqNine" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Aceptamos tarjetas de crédito, débito y pago contra entrega. Tus datos estarán siempre protegidos durante el proceso de pago.
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+       <footer class="bg-dark text-light text-center py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 mb-4 mb-md-0">
+                <h5>Información de Contacto</h5>
+                <p>Teléfono: <a href="tel:+56987654321" class="text-light">+56 9 8765 4321</a></p>
+                <p>Email: <a href="mailto:info@casadel-gusto.com" class="text-light">info@casadel-gusto.com</a></p>
+                <p>Dirección: Av. Italia 1234, Providencia, Santiago, Chile</p>
+            </div>
+
+            <div class="col-md-4 mb-4 mb-md-0">
+                <h5>Boletín de Noticias</h5>
+                <p>Suscríbete para recibir nuestras novedades y promociones dulces.</p>
+                <form id="newsletterForm">
+                    <input type="email" class="form-control mb-2" id="newsletterEmail" placeholder="Ingresa tu correo electrónico" required>
+                    <button type="submit" class="btn btn-primary w-100">Suscribirse</button>
+                </form>
+            </div>
+
+            <div class="col-md-4">
+                <h5>Síguenos</h5>
+                <a href="https://www.facebook.com" target="_blank" class="text-light me-3">
+                    <i class="fab fa-facebook fa-lg"></i>
+                </a>
+                <a href="https://www.twitter.com" target="_blank" class="text-light me-3">
+                    <i class="fab fa-twitter fa-lg"></i>
+                </a>
+                <a href="https://www.instagram.com" target="_blank" class="text-light me-3">
+                    <i class="fab fa-instagram fa-lg"></i>
+                </a>
+                <a href="https://www.linkedin.com" target="_blank" class="text-light">
+                    <i class="fab fa-linkedin fa-lg"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="mt-4">
+            <a href="/privacy-policy.html" class="text-light">Política de Privacidad</a> | 
+            <a href="/terms-and-conditions.html" class="text-light">Términos y Condiciones</a> | 
+            <a href="/cookies-policy.html" class="text-light">Política de Cookies</a>
+            <br>
+            <p>&copy; 2024 Casa del Gusto</p>
+        </div>
+    </div>
+</footer>
+
+        <!-- Scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="scripts/script.js"></script>
+    </body>
+    </html>
